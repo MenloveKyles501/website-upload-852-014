@@ -1,0 +1,882 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>剧情 分类 - 欧美经典电影</title>
+  <meta name="description" content="剧情 分类页面。">
+  <meta name="keywords" content="欧美经典电影,经典影片合集,高清影片观看,欧美电影,经典影片,电影合集">
+  <meta name="theme-color" content="#020617">
+  <link rel="stylesheet" href="assets/site.css">
+  <link rel="icon" href="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 64 64&quot;&gt;&lt;rect width=&quot;64&quot; height=&quot;64&quot; rx=&quot;16&quot; fill=&quot;#0f172a&quot;/&gt;&lt;path d=&quot;M12 20h40v24H12z&quot; fill=&quot;#22d3ee&quot; opacity=&quot;.9&quot;/&gt;&lt;circle cx=&quot;22&quot; cy=&quot;32&quot; r=&quot;6&quot; fill=&quot;#020617&quot;/&gt;&lt;path d=&quot;M30 24l12 8-12 8z&quot; fill=&quot;#020617&quot;/&gt;&lt;/svg&gt;">
+  <script defer src="assets/site.js"></script>
+  
+</head>
+<body>
+
+    
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="index.html" aria-label="欧美经典电影首页">
+          <span class="brand__mark">欧</span>
+          <span>
+            <strong>欧美经典电影</strong>
+            <small>Classic Film Archive</small>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="主导航"><a class="nav-link " href="index.html">首页</a><a class="nav-link is-active" href="categories.html">分类</a><a class="nav-link " href="library.html">全库检索</a><a class="nav-link " href="ranking.html">排行榜</a></nav>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-label="展开菜单">☰</button>
+      </div>
+      <div class="mobile-nav" data-mobile-nav>
+        <a class="nav-link " href="index.html">首页</a><a class="nav-link is-active" href="categories.html">分类</a><a class="nav-link " href="library.html">全库检索</a><a class="nav-link " href="ranking.html">排行榜</a>
+      </div>
+    </header>
+    
+    <main data-filter-shell>
+      <section class="page-hero">
+        <div class="container page-hero__inner">
+          <div class="badge-row"><span class="badge">剧情 分类</span><span class="badge">709 部影片</span><span class="badge">专题推荐</span></div>
+          <h1>剧情 分类页</h1>
+          <p>这里汇聚了数据集中与“剧情”相关的影片，适合从同一题材快速进入详情页。</p>
+          <div class="filter-bar">
+            <input data-filter-search type="search" placeholder="在本分类中继续搜索">
+            <select data-filter-year><option value="">全部年份</option><option value="2029">2029</option><option value="2028">2028</option><option value="2027">2027</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2001">2001</option><option value="2000">2000</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1992">1992</option><option value="1991">1991</option><option value="1989">1989</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1982">1982</option><option value="1979">1979</option><option value="1978">1978</option><option value="1977">1977</option><option value="1976">1976</option><option value="1972">1972</option><option value="1971">1971</option><option value="1967">1967</option><option value="1965">1965</option><option value="1964">1964</option><option value="1961">1961</option><option value="1957">1957</option><option value="1945">1945</option><option value="1926">1926</option></select>
+            <select data-filter-type><option value="">全部类型</option><option value="剧集">剧集</option><option value="剧集/限定剧">剧集/限定剧</option><option value="动画剧集">动画剧集</option><option value="电影">电影</option><option value="电视剧">电视剧</option><option value="电视剧/季播">电视剧/季播</option><option value="电视剧/短剧">电视剧/短剧</option><option value="电视剧/限定剧">电视剧/限定剧</option><option value="短片">短片</option><option value="综艺/电影">综艺/电影</option><option value="综艺节目">综艺节目</option><option value="网络电影">网络电影</option></select>
+            <select data-filter-region><option value="">全部地区</option><option value="中国">中国</option><option value="中国内地">中国内地</option><option value="中国台湾">中国台湾</option><option value="中国大陆">中国大陆</option><option value="中国大陆/法国">中国大陆/法国</option><option value="中国香港">中国香港</option><option value="中国香港/中国大陆">中国香港/中国大陆</option><option value="中国香港/台湾">中国香港/台湾</option><option value="丹麦">丹麦</option><option value="乌克兰/俄罗斯">乌克兰/俄罗斯</option><option value="以色列/波兰">以色列/波兰</option><option value="以色列/美国">以色列/美国</option><option value="伊朗">伊朗</option><option value="俄罗斯">俄罗斯</option><option value="冰岛">冰岛</option><option value="加拿大/挪威">加拿大/挪威</option><option value="匈牙利/德国">匈牙利/德国</option><option value="华语">华语</option><option value="南非">南非</option><option value="印度">印度</option><option value="古巴">古巴</option><option value="台湾">台湾</option><option value="土耳其">土耳其</option><option value="墨西哥">墨西哥</option><option value="墨西哥/美国">墨西哥/美国</option><option value="奥地利/德国">奥地利/德国</option><option value="尼日利亚">尼日利亚</option><option value="巴基斯坦">巴基斯坦</option><option value="巴西">巴西</option><option value="希腊">希腊</option><option value="德国">德国</option><option value="德国/南非">德国/南非</option><option value="德国/奥地利">德国/奥地利</option><option value="德国/法国">德国/法国</option><option value="德国/波兰">德国/波兰</option><option value="德国/美国">德国/美国</option><option value="意大利">意大利</option><option value="意大利/法国">意大利/法国</option><option value="挪威">挪威</option><option value="新加坡">新加坡</option><option value="新加坡/马来西亚">新加坡/马来西亚</option><option value="日本">日本</option><option value="日本/中国香港">日本/中国香港</option><option value="智利,西班牙">智利,西班牙</option><option value="智利/德国">智利/德国</option><option value="法国">法国</option><option value="法国/加拿大">法国/加拿大</option><option value="法国/德国">法国/德国</option><option value="法国/意大利">法国/意大利</option><option value="法国/日本">法国/日本</option><option value="法国/比利时">法国/比利时</option><option value="法国/美国">法国/美国</option><option value="法国/西班牙">法国/西班牙</option><option value="波兰">波兰</option><option value="波兰/英国">波兰/英国</option><option value="泰国">泰国</option><option value="澳大利亚">澳大利亚</option><option value="澳大利亚/印度尼西亚">澳大利亚/印度尼西亚</option><option value="瑞典/丹麦">瑞典/丹麦</option><option value="瑞典/挪威">瑞典/挪威</option><option value="瑞典/法国">瑞典/法国</option><option value="瑞士/德国">瑞士/德国</option><option value="美国">美国</option><option value="美国/南非">美国/南非</option><option value="美国/墨西哥">美国/墨西哥</option><option value="美国/德国">美国/德国</option><option value="美国/意大利">美国/意大利</option><option value="美国/英国">美国/英国</option><option value="芬兰">芬兰</option><option value="苏联">苏联</option><option value="英国">英国</option><option value="英国/新西兰">英国/新西兰</option><option value="英国/爱尔兰">英国/爱尔兰</option><option value="英国/美国">英国/美国</option><option value="菲律宾">菲律宾</option><option value="葡萄牙/法国">葡萄牙/法国</option><option value="蒙古国/中国大陆">蒙古国/中国大陆</option><option value="西班牙">西班牙</option><option value="西班牙/墨西哥">西班牙/墨西哥</option><option value="西班牙/阿根廷">西班牙/阿根廷</option><option value="阿根廷">阿根廷</option><option value="韩国">韩国</option><option value="香港">香港</option></select>
+            <button type="button" class="filter-chip is-active" data-filter-genre="">全部</button>
+            <button type="button" class="filter-chip" data-filter-genre="剧情">剧情</button>
+          </div>
+        </div>
+      </section>
+      <section class="container category-shell">
+        <div class="category-top">
+          <div>
+            <strong>剧情 · 精选列表</strong>
+            <div class="summary">当前显示 <span data-filter-count>709</span> 部影片</div>
+          </div>
+          <a class="btn" href="library.html">打开全库检索</a>
+        </div>
+        <div class="grid-wrap">
+          <div class="cards-grid">
+    <article class="movie-card " data-id="1021" data-title="三条黑暗的街道" data-year="2029" data-type="电视剧" data-region="英国/爱尔兰" data-genres="悬疑 犯罪 剧情" data-score="8.2">
+      <a href="movie-1021.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#14b8a6;--c2:#f43f5e;--c3:#22c55e;--dark:#111827">
+      <span class="poster__id">#1021</span>
+      <strong class="poster__title">三条黑暗的街道</strong>
+      <span class="poster__meta">2029 · 英国/爱尔兰</span>
+      <span class="poster__meta poster__meta--bottom">悬疑 · 犯罪</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>三条黑暗的街道</h3>
+            <span class="rating">8.2</span>
+          </div>
+          <p class="movie-card__meta">2029 · 电视剧 · 英国/爱尔兰</p>
+          <p class="movie-card__text">1998年《贝尔法斯特协议》签署前夜,三条相邻街道上的三个普通人,各自收到了一封写着同样地址的匿名信。</p>
+          <div class="tag-row"><span class="tag">悬疑</span><span class="tag">犯罪</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="73" data-title="偷渡者" data-year="2028" data-type="电影" data-region="德国/法国" data-genres="剧情 惊悚" data-score="8.1">
+      <a href="movie-0073.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#f43f5e;--c2:#22c55e;--c3:#6366f1;--dark:#0f172a">
+      <span class="poster__id">#0073</span>
+      <strong class="poster__title">偷渡者</strong>
+      <span class="poster__meta">2028 · 德国/法国</span>
+      <span class="poster__meta poster__meta--bottom">剧情 · 惊悚</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>偷渡者</h3>
+            <span class="rating">8.1</span>
+          </div>
+          <p class="movie-card__meta">2028 · 电影 · 德国/法国</p>
+          <p class="movie-card__text">一艘从非洲开往欧洲的货轮的集装箱里,意外被发现藏匿了数十名偷渡者,船员们必须在法律与人性间做出选择。</p>
+          <div class="tag-row"><span class="tag">剧情</span><span class="tag">惊悚</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="424" data-title="天堂岛之外第三季" data-year="2026" data-type="剧集" data-region="美国" data-genres="剧情 悬疑 科幻" data-score="8.1">
+      <a href="movie-0424.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#eab308;--c2:#6366f1;--c3:#f43f5e;--dark:#111827">
+      <span class="poster__id">#0424</span>
+      <strong class="poster__title">天堂岛之外第三季</strong>
+      <span class="poster__meta">2026 · 美国</span>
+      <span class="poster__meta poster__meta--bottom">剧情 · 悬疑</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>天堂岛之外第三季</h3>
+            <span class="rating">8.1</span>
+          </div>
+          <p class="movie-card__meta">2026 · 剧集 · 美国</p>
+          <p class="movie-card__text">当主角们终于逃出天堂岛,却发现外面的世界才是真正的地狱,而天堂岛是唯一的避难所。</p>
+          <div class="tag-row"><span class="tag">剧情</span><span class="tag">悬疑</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="1735" data-title="怀梦之邦" data-year="2026" data-type="剧集" data-region="美国" data-genres="科幻 悬疑 剧情" data-score="8.1">
+      <a href="movie-1735.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#f43f5e;--c2:#f43f5e;--c3:#14b8a6;--dark:#111827">
+      <span class="poster__id">#1735</span>
+      <strong class="poster__title">怀梦之邦</strong>
+      <span class="poster__meta">2026 · 美国</span>
+      <span class="poster__meta poster__meta--bottom">科幻 · 悬疑</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>怀梦之邦</h3>
+            <span class="rating">8.1</span>
+          </div>
+          <p class="movie-card__meta">2026 · 剧集 · 美国</p>
+          <p class="movie-card__text">一款名为“怀梦之邦”的沉浸式服务,能让富人永久活在自己最幸福的一段记忆中,直到他们的身体在现实中腐烂。</p>
+          <div class="tag-row"><span class="tag">科幻</span><span class="tag">悬疑</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="772" data-title="冬景" data-year="2027" data-type="电影" data-region="中国大陆" data-genres="剧情 家庭 悬疑" data-score="8.0">
+      <a href="movie-0772.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#38bdf8;--c2:#a78bfa;--c3:#eab308;--dark:#0b1120">
+      <span class="poster__id">#0772</span>
+      <strong class="poster__title">冬景</strong>
+      <span class="poster__meta">2027 · 中国大陆</span>
+      <span class="poster__meta poster__meta--bottom">剧情 · 家庭</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>冬景</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2027 · 电影 · 中国大陆</p>
+          <p class="movie-card__text">东北小镇的冬天,女儿突然失踪,父亲在寻找过程中发现自己从未真正了解过她。</p>
+          <div class="tag-row"><span class="tag">剧情</span><span class="tag">家庭</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="1105" data-title="对付弱者" data-year="2027" data-type="电影" data-region="法国" data-genres="剧情 惊悚" data-score="8.0">
+      <a href="movie-1105.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#14b8a6;--c2:#6366f1;--c3:#f97316;--dark:#111827">
+      <span class="poster__id">#1105</span>
+      <strong class="poster__title">对付弱者</strong>
+      <span class="poster__meta">2027 · 法国</span>
+      <span class="poster__meta poster__meta--bottom">剧情 · 惊悚</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>对付弱者</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2027 · 电影 · 法国</p>
+          <p class="movie-card__text">被霸凌的高中男生意外获得一本《弱者反杀手册》,当他按步骤实施时,发现作者就是学校的清洁工。</p>
+          <div class="tag-row"><span class="tag">剧情</span><span class="tag">惊悚</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="271" data-title="婚姻战" data-year="2026" data-type="剧集" data-region="韩国" data-genres="剧情 家庭 悬疑" data-score="8.0">
+      <a href="movie-0271.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#f97316;--c2:#f97316;--c3:#eab308;--dark:#111827">
+      <span class="poster__id">#0271</span>
+      <strong class="poster__title">婚姻战</strong>
+      <span class="poster__meta">2026 · 韩国</span>
+      <span class="poster__meta poster__meta--bottom">剧情 · 家庭</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>婚姻战</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2026 · 剧集 · 韩国</p>
+          <p class="movie-card__text">离婚官司变成了全民直播的真人秀,夫妻俩的盟友遍布检察官到清洁工。</p>
+          <div class="tag-row"><span class="tag">剧情</span><span class="tag">家庭</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="377" data-title="30年的人生" data-year="2026" data-type="剧集" data-region="韩国" data-genres="剧情 奇幻" data-score="8.0">
+      <a href="movie-0377.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#f97316;--c2:#22c55e;--c3:#14b8a6;--dark:#0b1120">
+      <span class="poster__id">#0377</span>
+      <strong class="poster__title">30年的人生</strong>
+      <span class="poster__meta">2026 · 韩国</span>
+      <span class="poster__meta poster__meta--bottom">剧情 · 奇幻</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>30年的人生</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2026 · 剧集 · 韩国</p>
+          <p class="movie-card__text">七个高中死党喝下神秘药水后,每睡一觉就会跳跃到几个月后,他们要花30年才能回到正常时间线。</p>
+          <div class="tag-row"><span class="tag">剧情</span><span class="tag">奇幻</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="400" data-title="不受欢迎的人" data-year="2026" data-type="电影" data-region="法国" data-genres="剧情 悬疑" data-score="8.0">
+      <a href="movie-0400.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#38bdf8;--c2:#14b8a6;--c3:#f97316;--dark:#111827">
+      <span class="poster__id">#0400</span>
+      <strong class="poster__title">不受欢迎的人</strong>
+      <span class="poster__meta">2026 · 法国</span>
+      <span class="poster__meta poster__meta--bottom">剧情 · 悬疑</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>不受欢迎的人</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2026 · 电影 · 法国</p>
+          <p class="movie-card__text">每个小镇都有个“不受欢迎的人”,但当这人死了,全镇都成了嫌疑人。</p>
+          <div class="tag-row"><span class="tag">剧情</span><span class="tag">悬疑</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="792" data-title="菜鸟老警第七季" data-year="2026" data-type="剧集" data-region="美国" data-genres="剧情 犯罪" data-score="8.0">
+      <a href="movie-0792.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#14b8a6;--c2:#6366f1;--c3:#6366f1;--dark:#111827">
+      <span class="poster__id">#0792</span>
+      <strong class="poster__title">菜鸟老警第七季</strong>
+      <span class="poster__meta">2026 · 美国</span>
+      <span class="poster__meta poster__meta--bottom">剧情 · 犯罪</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>菜鸟老警第七季</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2026 · 剧集 · 美国</p>
+          <p class="movie-card__text">当了半辈子建筑工的诺兰迎来警局最残酷的内务审查,而新来的实习生竟是他前妻的女儿。</p>
+          <div class="tag-row"><span class="tag">剧情</span><span class="tag">犯罪</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="904" data-title="成功的秘密" data-year="2026" data-type="电影" data-region="美国" data-genres="剧情 惊悚" data-score="8.0">
+      <a href="movie-0904.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#f43f5e;--c2:#22c55e;--c3:#f43f5e;--dark:#0f172a">
+      <span class="poster__id">#0904</span>
+      <strong class="poster__title">成功的秘密</strong>
+      <span class="poster__meta">2026 · 美国</span>
+      <span class="poster__meta poster__meta--bottom">剧情 · 惊悚</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>成功的秘密</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2026 · 电影 · 美国</p>
+          <p class="movie-card__text">一位落魄记者卧底加入一个年入百万的成功学“觉醒”课程,发现课程的最后一关,是让学员“自愿”背上天价债务。</p>
+          <div class="tag-row"><span class="tag">剧情</span><span class="tag">惊悚</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="949" data-title="仙剑云之凡" data-year="2026" data-type="电视剧" data-region="中国大陆" data-genres="剧情" data-score="8.0">
+      <a href="movie-0949.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#14b8a6;--c2:#22c55e;--c3:#eab308;--dark:#0f172a">
+      <span class="poster__id">#0949</span>
+      <strong class="poster__title">仙剑云之凡</strong>
+      <span class="poster__meta">2026 · 中国大陆</span>
+      <span class="poster__meta poster__meta--bottom">剧情</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>仙剑云之凡</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2026 · 电视剧 · 中国大陆</p>
+          <p class="movie-card__text">魔尊之女带着前世记忆转世为蜀山弟子,她必须在消灭魔族和拯救爱人之间做出选择。</p>
+          <div class="tag-row"><span class="tag">剧情</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="977" data-title="黑道家族 第二季" data-year="2026" data-type="剧集" data-region="美国" data-genres="犯罪 剧情 惊悚" data-score="8.0">
+      <a href="movie-0977.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#a78bfa;--c2:#38bdf8;--c3:#6366f1;--dark:#111827">
+      <span class="poster__id">#0977</span>
+      <strong class="poster__title">黑道家族 第二季</strong>
+      <span class="poster__meta">2026 · 美国</span>
+      <span class="poster__meta poster__meta--bottom">犯罪 · 剧情</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>黑道家族 第二季</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2026 · 剧集 · 美国</p>
+          <p class="movie-card__text">老大入狱,群龙无首,二代们掀起的权力内斗,将整个家族拖入毁灭深渊。</p>
+          <div class="tag-row"><span class="tag">犯罪</span><span class="tag">剧情</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="1217" data-title="失业生粤语" data-year="2026" data-type="电影" data-region="中国香港" data-genres="剧情" data-score="8.0">
+      <a href="movie-1217.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#22c55e;--c2:#f97316;--c3:#f97316;--dark:#0f172a">
+      <span class="poster__id">#1217</span>
+      <strong class="poster__title">失业生粤语</strong>
+      <span class="poster__meta">2026 · 中国香港</span>
+      <span class="poster__meta poster__meta--bottom">剧情</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>失业生粤语</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2026 · 电影 · 中国香港</p>
+          <p class="movie-card__text">三个金融专业的好兄弟毕业即失业,被迫放下身段去茶餐厅打工,却意外成了“网红伙拼团”。</p>
+          <div class="tag-row"><span class="tag">剧情</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="1350" data-title="喊·山" data-year="2026" data-type="电影" data-region="中国" data-genres="剧情 犯罪" data-score="8.0">
+      <a href="movie-1350.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#f43f5e;--c2:#22c55e;--c3:#22c55e;--dark:#111827">
+      <span class="poster__id">#1350</span>
+      <strong class="poster__title">喊·山</strong>
+      <span class="poster__meta">2026 · 中国</span>
+      <span class="poster__meta poster__meta--bottom">剧情 · 犯罪</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>喊·山</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2026 · 电影 · 中国</p>
+          <p class="movie-card__text">被拐卖三十年的哑女终于学会说话,她喊出的第一句话是指认全村男人的罪行。</p>
+          <div class="tag-row"><span class="tag">剧情</span><span class="tag">犯罪</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="1575" data-title="重新安排" data-year="2026" data-type="电影" data-region="德国" data-genres="剧情 科幻 悬疑" data-score="8.0">
+      <a href="movie-1575.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#f43f5e;--c2:#22c55e;--c3:#38bdf8;--dark:#0f172a">
+      <span class="poster__id">#1575</span>
+      <strong class="poster__title">重新安排</strong>
+      <span class="poster__meta">2026 · 德国</span>
+      <span class="poster__meta poster__meta--bottom">剧情 · 科幻</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>重新安排</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2026 · 电影 · 德国</p>
+          <p class="movie-card__text">一个时间管理App承诺“删除过去最糟糕的一天”,当你按下确认,才发现被删掉的不止那一天。</p>
+          <div class="tag-row"><span class="tag">剧情</span><span class="tag">科幻</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="103" data-title="别让我走" data-year="2025" data-type="电影" data-region="日本" data-genres="剧情 科幻" data-score="8.0">
+      <a href="movie-0103.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#f43f5e;--c2:#eab308;--c3:#a78bfa;--dark:#0f172a">
+      <span class="poster__id">#0103</span>
+      <strong class="poster__title">别让我走</strong>
+      <span class="poster__meta">2025 · 日本</span>
+      <span class="poster__meta poster__meta--bottom">剧情 · 科幻</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>别让我走</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2025 · 电影 · 日本</p>
+          <p class="movie-card__text">在一所与世隔绝的寄宿学校,一群孩子发现自己都是为捐献器官而存在的克隆人,他们必须直面被预设的短命人生。</p>
+          <div class="tag-row"><span class="tag">剧情</span><span class="tag">科幻</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="316" data-title="乡村检察官" data-year="2025" data-type="剧集" data-region="中国大陆" data-genres="剧情 悬疑" data-score="8.0">
+      <a href="movie-0316.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#eab308;--c2:#6366f1;--c3:#f43f5e;--dark:#111827">
+      <span class="poster__id">#0316</span>
+      <strong class="poster__title">乡村检察官</strong>
+      <span class="poster__meta">2025 · 中国大陆</span>
+      <span class="poster__meta poster__meta--bottom">剧情 · 悬疑</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>乡村检察官</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2025 · 剧集 · 中国大陆</p>
+          <p class="movie-card__text">一名京城检察官调回家乡,发现失散多年的发小竟是黑恶势力头目。</p>
+          <div class="tag-row"><span class="tag">剧情</span><span class="tag">悬疑</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="340" data-title="神探麦克" data-year="2025" data-type="剧集" data-region="英国" data-genres="悬疑 犯罪 剧情" data-score="8.0">
+      <a href="movie-0340.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#38bdf8;--c2:#14b8a6;--c3:#14b8a6;--dark:#0f172a">
+      <span class="poster__id">#0340</span>
+      <strong class="poster__title">神探麦克</strong>
+      <span class="poster__meta">2025 · 英国</span>
+      <span class="poster__meta poster__meta--bottom">悬疑 · 犯罪</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>神探麦克</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2025 · 剧集 · 英国</p>
+          <p class="movie-card__text">伦敦最硬汉的警探麦克从昏迷中醒来,忘了所有事,只记得自己办的最后一件案子——正是导致他昏迷的那件。</p>
+          <div class="tag-row"><span class="tag">悬疑</span><span class="tag">犯罪</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="442" data-title="谁杀了她丈夫" data-year="2025" data-type="电影" data-region="日本" data-genres="悬疑 剧情" data-score="8.0">
+      <a href="movie-0442.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#6366f1;--c2:#6366f1;--c3:#6366f1;--dark:#111827">
+      <span class="poster__id">#0442</span>
+      <strong class="poster__title">谁杀了她丈夫</strong>
+      <span class="poster__meta">2025 · 日本</span>
+      <span class="poster__meta poster__meta--bottom">悬疑 · 剧情</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>谁杀了她丈夫</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2025 · 电影 · 日本</p>
+          <p class="movie-card__text">贤妻因杀夫受审,六个证人讲述了六个完全不同的丈夫,她到底杀了谁?</p>
+          <div class="tag-row"><span class="tag">悬疑</span><span class="tag">剧情</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="461" data-title="嫌疑人之长夜将尽" data-year="2025" data-type="电影" data-region="中国大陆" data-genres="悬疑 犯罪 剧情" data-score="8.0">
+      <a href="movie-0461.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#6366f1;--c2:#14b8a6;--c3:#22c55e;--dark:#111827">
+      <span class="poster__id">#0461</span>
+      <strong class="poster__title">嫌疑人之长夜将尽</strong>
+      <span class="poster__meta">2025 · 中国大陆</span>
+      <span class="poster__meta poster__meta--bottom">悬疑 · 犯罪</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>嫌疑人之长夜将尽</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2025 · 电影 · 中国大陆</p>
+          <p class="movie-card__text">一具埋藏十五年的骸骨被发现,镇上四个互不相识的人都跑来自首说是凶手。</p>
+          <div class="tag-row"><span class="tag">悬疑</span><span class="tag">犯罪</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="539" data-title="旺角马场" data-year="2025" data-type="剧集" data-region="中国香港" data-genres="犯罪 剧情 动作" data-score="8.0">
+      <a href="movie-0539.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#a78bfa;--c2:#f97316;--c3:#eab308;--dark:#111827">
+      <span class="poster__id">#0539</span>
+      <strong class="poster__title">旺角马场</strong>
+      <span class="poster__meta">2025 · 中国香港</span>
+      <span class="poster__meta poster__meta--bottom">犯罪 · 剧情</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>旺角马场</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2025 · 剧集 · 中国香港</p>
+          <p class="movie-card__text">卧底警察混入旺角地下马场三年,发现自己要抓捕的老大正是小时候救过自己命的亲哥哥。</p>
+          <div class="tag-row"><span class="tag">犯罪</span><span class="tag">剧情</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="793" data-title="美国鸟类" data-year="2025" data-type="剧集" data-region="美国" data-genres="悬疑 剧情" data-score="8.0">
+      <a href="movie-0793.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#22c55e;--c2:#38bdf8;--c3:#6366f1;--dark:#0b1120">
+      <span class="poster__id">#0793</span>
+      <strong class="poster__title">美国鸟类</strong>
+      <span class="poster__meta">2025 · 美国</span>
+      <span class="poster__meta poster__meta--bottom">悬疑 · 剧情</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>美国鸟类</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2025 · 剧集 · 美国</p>
+          <p class="movie-card__text">一名性格孤僻的鸟类学博士来到小镇研究秃鹰,却发现每一种鸟类的异常行为,都在预告着一起谋杀。</p>
+          <div class="tag-row"><span class="tag">悬疑</span><span class="tag">剧情</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="830" data-title="野放动物" data-year="2025" data-type="电影" data-region="中国大陆" data-genres="悬疑 剧情" data-score="8.0">
+      <a href="movie-0830.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#eab308;--c2:#6366f1;--c3:#6366f1;--dark:#111827">
+      <span class="poster__id">#0830</span>
+      <strong class="poster__title">野放动物</strong>
+      <span class="poster__meta">2025 · 中国大陆</span>
+      <span class="poster__meta poster__meta--bottom">悬疑 · 剧情</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>野放动物</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2025 · 电影 · 中国大陆</p>
+          <p class="movie-card__text">东北虎豹国家公园的核心区里,五名护林员与一群盗猎者在暴风雪中被困同一间木屋。</p>
+          <div class="tag-row"><span class="tag">悬疑</span><span class="tag">剧情</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="913" data-title="三个女人的秘密" data-year="2025" data-type="剧集" data-region="中国大陆" data-genres="悬疑 剧情" data-score="8.0">
+      <a href="movie-0913.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#38bdf8;--c2:#38bdf8;--c3:#eab308;--dark:#111827">
+      <span class="poster__id">#0913</span>
+      <strong class="poster__title">三个女人的秘密</strong>
+      <span class="poster__meta">2025 · 中国大陆</span>
+      <span class="poster__meta poster__meta--bottom">悬疑 · 剧情</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>三个女人的秘密</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2025 · 剧集 · 中国大陆</p>
+          <p class="movie-card__text">一场豪华游轮之旅,三个相识二十年的闺蜜,每个人都有一个足以毁掉其他两人人生的秘密。</p>
+          <div class="tag-row"><span class="tag">悬疑</span><span class="tag">剧情</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="992" data-title="愿你在此" data-year="2025" data-type="电影" data-region="美国" data-genres="科幻 剧情" data-score="8.0">
+      <a href="movie-0992.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#6366f1;--c2:#14b8a6;--c3:#f43f5e;--dark:#0b1120">
+      <span class="poster__id">#0992</span>
+      <strong class="poster__title">愿你在此</strong>
+      <span class="poster__meta">2025 · 美国</span>
+      <span class="poster__meta poster__meta--bottom">科幻 · 剧情</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>愿你在此</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2025 · 电影 · 美国</p>
+          <p class="movie-card__text">一位失去女儿的母亲,通过一家神秘公司获得了与数字亡魂共度最后24小时的机会。</p>
+          <div class="tag-row"><span class="tag">科幻</span><span class="tag">剧情</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="1043" data-title="外卖骑士" data-year="2025" data-type="剧集" data-region="韩国" data-genres="剧情 动作" data-score="8.0">
+      <a href="movie-1043.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#6366f1;--c2:#6366f1;--c3:#22c55e;--dark:#111827">
+      <span class="poster__id">#1043</span>
+      <strong class="poster__title">外卖骑士</strong>
+      <span class="poster__meta">2025 · 韩国</span>
+      <span class="poster__meta poster__meta--bottom">剧情 · 动作</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>外卖骑士</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2025 · 剧集 · 韩国</p>
+          <p class="movie-card__text">首尔的雨夜里,一群外卖员用送餐箱运送着比食物更危险的东西——真相。</p>
+          <div class="tag-row"><span class="tag">剧情</span><span class="tag">动作</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="1208" data-title="随记" data-year="2025" data-type="电影" data-region="中国大陆" data-genres="剧情 悬疑" data-score="8.0">
+      <a href="movie-1208.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#eab308;--c2:#f43f5e;--c3:#6366f1;--dark:#111827">
+      <span class="poster__id">#1208</span>
+      <strong class="poster__title">随记</strong>
+      <span class="poster__meta">2025 · 中国大陆</span>
+      <span class="poster__meta poster__meta--bottom">剧情 · 悬疑</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>随记</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2025 · 电影 · 中国大陆</p>
+          <p class="movie-card__text">一名失忆的畅销书作家发现自己最新出版的“虚构小说”,竟然是他高中同学真实的谋杀日记。</p>
+          <div class="tag-row"><span class="tag">剧情</span><span class="tag">悬疑</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="1223" data-title="地球最后的导演" data-year="2025" data-type="电影" data-region="中国大陆" data-genres="科幻 剧情" data-score="8.0">
+      <a href="movie-1223.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#14b8a6;--c2:#22c55e;--c3:#f43f5e;--dark:#0b1120">
+      <span class="poster__id">#1223</span>
+      <strong class="poster__title">地球最后的导演</strong>
+      <span class="poster__meta">2025 · 中国大陆</span>
+      <span class="poster__meta poster__meta--bottom">科幻 · 剧情</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>地球最后的导演</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2025 · 电影 · 中国大陆</p>
+          <p class="movie-card__text">人类文明终结前,一个没落导演和一个AI争当“最后一部电影”的导演。</p>
+          <div class="tag-row"><span class="tag">科幻</span><span class="tag">剧情</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="1317" data-title="七个男人一间屋" data-year="2025" data-type="电影" data-region="中国大陆" data-genres="剧情 悬疑" data-score="8.0">
+      <a href="movie-1317.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#38bdf8;--c2:#14b8a6;--c3:#f97316;--dark:#0b1120">
+      <span class="poster__id">#1317</span>
+      <strong class="poster__title">七个男人一间屋</strong>
+      <span class="poster__meta">2025 · 中国大陆</span>
+      <span class="poster__meta poster__meta--bottom">剧情 · 悬疑</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>七个男人一间屋</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2025 · 电影 · 中国大陆</p>
+          <p class="movie-card__text">七位素不相识的男人被关进密室,每十分钟必须投票淘汰一人,最后存活者将获得“新生”。</p>
+          <div class="tag-row"><span class="tag">剧情</span><span class="tag">悬疑</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="1448" data-title="浴血兄弟" data-year="2025" data-type="电影" data-region="美国" data-genres="动作 剧情 犯罪" data-score="8.0">
+      <a href="movie-1448.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#f97316;--c2:#eab308;--c3:#f97316;--dark:#0f172a">
+      <span class="poster__id">#1448</span>
+      <strong class="poster__title">浴血兄弟</strong>
+      <span class="poster__meta">2025 · 美国</span>
+      <span class="poster__meta poster__meta--bottom">动作 · 剧情</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>浴血兄弟</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2025 · 电影 · 美国</p>
+          <p class="movie-card__text">一对从小一起长大的黑人兄弟,一个成了警察,一个成了毒枭,同时被同一个人陷害。</p>
+          <div class="tag-row"><span class="tag">动作</span><span class="tag">剧情</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="1562" data-title="我知道我的名字叫史蒂芬" data-year="2025" data-type="电影" data-region="美国" data-genres="悬疑 剧情" data-score="8.0">
+      <a href="movie-1562.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#6366f1;--c2:#a78bfa;--c3:#eab308;--dark:#0b1120">
+      <span class="poster__id">#1562</span>
+      <strong class="poster__title">我知道我的名字叫史蒂芬</strong>
+      <span class="poster__meta">2025 · 美国</span>
+      <span class="poster__meta poster__meta--bottom">悬疑 · 剧情</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>我知道我的名字叫史蒂芬</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2025 · 电影 · 美国</p>
+          <p class="movie-card__text">一个失忆的男人坚信自己是失踪多年的史蒂芬,但当他接近真相时,所谓的“家人们”却都在试图杀他。</p>
+          <div class="tag-row"><span class="tag">悬疑</span><span class="tag">剧情</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="1566" data-title="慈悲" data-year="2025" data-type="电影" data-region="日本" data-genres="剧情 犯罪 悬疑" data-score="8.0">
+      <a href="movie-1566.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#6366f1;--c2:#6366f1;--c3:#22c55e;--dark:#111827">
+      <span class="poster__id">#1566</span>
+      <strong class="poster__title">慈悲</strong>
+      <span class="poster__meta">2025 · 日本</span>
+      <span class="poster__meta poster__meta--bottom">剧情 · 犯罪</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>慈悲</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2025 · 电影 · 日本</p>
+          <p class="movie-card__text">一名死刑执行官,在对杀害自己女儿的凶手执行死刑的前夜,意外收到了一封来自凶手的忏悔信,信中揭露的真相让他陷入了伦理的深渊。</p>
+          <div class="tag-row"><span class="tag">剧情</span><span class="tag">犯罪</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="1595" data-title="人细鬼大不了情" data-year="2025" data-type="电影" data-region="中国香港" data-genres="剧情 犯罪 动作" data-score="8.0">
+      <a href="movie-1595.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#a78bfa;--c2:#38bdf8;--c3:#f97316;--dark:#0b1120">
+      <span class="poster__id">#1595</span>
+      <strong class="poster__title">人细鬼大不了情</strong>
+      <span class="poster__meta">2025 · 中国香港</span>
+      <span class="poster__meta poster__meta--bottom">剧情 · 犯罪</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>人细鬼大不了情</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2025 · 电影 · 中国香港</p>
+          <p class="movie-card__text">黑帮大佬的智障儿子目睹了父亲被杀,他必须用自己的方式找出凶手。</p>
+          <div class="tag-row"><span class="tag">剧情</span><span class="tag">犯罪</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="1747" data-title="拒绝采访" data-year="2025" data-type="电影" data-region="中国大陆" data-genres="剧情 悬疑" data-score="8.0">
+      <a href="movie-1747.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#22c55e;--c2:#f97316;--c3:#14b8a6;--dark:#0b1120">
+      <span class="poster__id">#1747</span>
+      <strong class="poster__title">拒绝采访</strong>
+      <span class="poster__meta">2025 · 中国大陆</span>
+      <span class="poster__meta poster__meta--bottom">剧情 · 悬疑</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>拒绝采访</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2025 · 电影 · 中国大陆</p>
+          <p class="movie-card__text">记者重返家乡调查二十年前的悬案,所有目击者都拒绝采访,但他们拒绝的原因各不相同。</p>
+          <div class="tag-row"><span class="tag">剧情</span><span class="tag">悬疑</span></div>
+        </div>
+      </a>
+    </article>
+    
+    <article class="movie-card " data-id="1864" data-title="菜鸟老警第七季" data-year="2025" data-type="电视剧" data-region="美国" data-genres="剧情 犯罪 动作" data-score="8.0">
+      <a href="movie-1864.html" class="movie-card__link">
+        
+    <div class="poster" style="--c1:#14b8a6;--c2:#f43f5e;--c3:#f43f5e;--dark:#0b1120">
+      <span class="poster__id">#1864</span>
+      <strong class="poster__title">菜鸟老警第七季</strong>
+      <span class="poster__meta">2025 · 美国</span>
+      <span class="poster__meta poster__meta--bottom">剧情 · 犯罪</span>
+    </div>
+    
+        <div class="movie-card__body">
+          <div class="movie-card__top">
+            <h3>菜鸟老警第七季</h3>
+            <span class="rating">8.0</span>
+          </div>
+          <p class="movie-card__meta">2025 · 电视剧 · 美国</p>
+          <p class="movie-card__text">诺兰从菜鸟熬成了训练官,而他的新学员是他年轻时逮捕过的那个街头混混的儿子。</p>
+          <div class="tag-row"><span class="tag">剧情</span><span class="tag">犯罪</span></div>
+        </div>
+      </a>
+    </article>
+    </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <div>
+          <strong>欧美经典电影</strong>
+          <p>收录欧美经典电影栏目内容，覆盖不同年代的口碑影片与精选片单。</p>
+        </div>
+        <div class="footer-links">
+          <a href="categories.html">分类总览</a>
+          <a href="library.html">全库检索</a>
+          <a href="ranking.html">排行榜</a>
+        </div>
+      </div>
+    </footer>
+    
+    
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

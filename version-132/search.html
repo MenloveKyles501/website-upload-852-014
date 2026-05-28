@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搜索-亚洲高清电影</title>
+  <meta name="description" content="亚洲高清电影搜索页，按片名、类型、地区、标签筛选高清电影在线观看内容。">
+  <meta name="keywords" content="亚洲高清电影,高清电影片库,高清电影在线观看,亚洲电影,电影合集,热门影片,电影搜索,影片筛选">
+  <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-shell">
+    <a class="brand" href="./index.html" aria-label="亚洲高清电影">
+      <span class="brand-mark">▶</span>
+      <span class="brand-text">亚洲高清电影</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="" href="./index.html">首页</a>
+      <div class="nav-drop">
+        <a class="" href="./categories.html">分类</a>
+        <div class="drop-menu">
+          <a href="./category-chinese-cinema.html">华语剧场</a>
+          <a href="./category-japan-korea.html">日韩精选</a>
+          <a href="./category-asian-feature.html">亚洲佳作</a>
+          <a href="./category-western-cinema.html">欧美影院</a>
+          <a href="./category-action-adventure.html">动作冒险</a>
+          <a href="./category-mystery-thriller.html">悬疑惊悚</a>
+          <a href="./category-comedy-romance.html">喜剧爱情</a>
+          <a href="./category-sci-fi-fantasy.html">科幻奇幻</a>
+          <a href="./category-history-war.html">历史战争</a>
+          <a href="./category-animation-documentary.html">动画纪录</a>
+        </div>
+      </div>
+      <a class="" href="./ranking.html">排行榜</a>
+      <a class="active" href="./search.html">搜索</a>
+    </nav>
+    <form class="nav-search global-search" action="./search.html" method="get">
+      <input name="q" type="search" placeholder="搜索影片..." autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" aria-label="打开导航" data-menu-toggle>☰</button>
+  </div>
+  <div class="mobile-panel" data-mobile-panel>
+    <form class="mobile-search global-search" action="./search.html" method="get">
+      <input name="q" type="search" placeholder="搜索影片..." autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <a href="./index.html">首页</a>
+    <a href="./categories.html">分类总览</a>
+    <a href="./ranking.html">排行榜</a>
+    <a href="./search.html">搜索</a>
+        <a href="./category-chinese-cinema.html">华语剧场</a>
+        <a href="./category-japan-korea.html">日韩精选</a>
+        <a href="./category-asian-feature.html">亚洲佳作</a>
+        <a href="./category-western-cinema.html">欧美影院</a>
+        <a href="./category-action-adventure.html">动作冒险</a>
+        <a href="./category-mystery-thriller.html">悬疑惊悚</a>
+  </div>
+</header>
+<main>
+  <section class="page-hero soft-hero">
+    <div class="section-shell">
+      <span class="eyebrow">Search</span>
+      <h1>影片搜索</h1>
+      <p>可按片名、地区、年份、类型、标签快速查找影片。</p>
+      <form class="search-page-form" data-search-page-form>
+        <input type="search" name="q" placeholder="输入关键词" autocomplete="off" data-search-input>
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </section>
+  <section class="section-shell">
+    <div class="search-status" data-search-status>输入关键词即可查找影片。</div>
+    <div class="movie-grid cards-4" id="searchResults"></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-shell">
+    <div>
+      <a class="footer-brand" href="./index.html">亚洲高清电影</a>
+      <p>汇集亚洲高清电影内容，涵盖多地区热门影片、经典电影和精选片单。</p>
+    </div>
+    <div class="footer-links">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">排行榜</a>
+      <a href="./search.html">搜索</a>
+        <a href="./category-chinese-cinema.html">华语剧场</a>
+        <a href="./category-japan-korea.html">日韩精选</a>
+        <a href="./category-asian-feature.html">亚洲佳作</a>
+        <a href="./category-western-cinema.html">欧美影院</a>
+        <a href="./category-action-adventure.html">动作冒险</a>
+        <a href="./category-mystery-thriller.html">悬疑惊悚</a>
+    </div>
+  </div>
+</footer>
+  <script src="./assets/site.js"></script>
+  <script src="./assets/movie-data.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

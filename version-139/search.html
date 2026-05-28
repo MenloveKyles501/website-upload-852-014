@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索-国产精选电影-精选电影合集-高清视频在线播放</title>
+  <meta name="description" content="搜索国产精选电影、精选电影合集与高清视频播放内容。">
+  <meta name="keywords" content="国产精选电影,精选电影合集,高清视频播放,国产电影,精选影片,高清电影,电影搜索,影片搜索,影视搜索">
+  <meta name="applicable-device" content="pc,mobile">
+  <meta name="renderer" content="webkit">
+  <link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-bar">
+    <a class="brand" href="./index.html" aria-label="国产精选电影首页">
+      <span class="brand-icon">▶</span>
+      <span class="brand-text"><strong>国产精选电影</strong><small>高清视频在线播放</small></span>
+    </a>
+    <nav class="nav-links" aria-label="主导航">
+      <a class="nav-link" href="./index.html">首页</a><a class="nav-link" href="./categories.html">分类</a><a class="nav-link" href="./ranking.html">排行榜</a><a class="nav-link" href="./category/domestic.html">国语精选</a><a class="nav-link" href="./category/love-comedy.html">爱情喜剧</a><a class="nav-link" href="./category/suspense-crime.html">悬疑犯罪</a>
+    </nav>
+    <form class="top-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" aria-label="菜单" aria-expanded="false">☰</button>
+  </div>
+  <div class="mobile-panel">
+    <form class="mobile-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片..." aria-label="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <nav aria-label="移动导航">
+      <a class="mobile-link" href="./index.html">首页</a><a class="mobile-link" href="./categories.html">分类</a><a class="mobile-link" href="./ranking.html">排行榜</a><a class="mobile-link" href="./category/domestic.html">国语精选</a><a class="mobile-link" href="./category/love-comedy.html">爱情喜剧</a><a class="mobile-link" href="./category/suspense-crime.html">悬疑犯罪</a>
+    </nav>
+  </div>
+</header>
+<main class="search-page">
+  <section class="page-hero search-hero">
+    <div class="container">
+      <span class="eyebrow">Search</span>
+      <h1>搜索影片</h1>
+      <p>输入影片名称、题材、地区、年份或标签，快速定位想看的内容。</p>
+      <form class="hero-search" action="search.html" method="get">
+        <input id="searchInput" type="search" name="q" placeholder="输入关键词搜索" aria-label="输入关键词搜索">
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </section>
+  <section class="container content-section">
+    <div class="section-heading">
+      <div>
+        <h2>搜索结果</h2>
+        <p id="searchSummary">请输入关键词开始搜索。</p>
+      </div>
+    </div>
+    <div id="searchResults" class="movie-grid"></div>
+  </section>
+</main>
+<script src="assets/js/search-data.js"></script>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="footer-logo" href="./index.html" aria-label="国产精选电影首页">国产精选电影</a>
+      <p>精选国产电影栏目内容，涵盖热门题材、高分影片和经典作品。</p>
+    </div>
+    <div>
+      <h2>导航</h2>
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./ranking.html">排行榜</a>
+      <a href="./search.html">搜索</a>
+    </div>
+    <div>
+      <h2>精选入口</h2>
+      <a href="./category/domestic.html">国语精选</a>
+      <a href="./category/love-comedy.html">爱情喜剧</a>
+      <a href="./category/suspense-crime.html">悬疑犯罪</a>
+      <a href="./category/sci-fi-fantasy.html">科幻奇幻</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 国产精选电影 · 高清视频在线播放</div>
+</footer>
+<script src="./assets/js/site.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
